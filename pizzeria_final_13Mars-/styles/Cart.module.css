@@ -1,0 +1,166 @@
+.container{
+    padding: 50px;
+    display: flex;
+    min-height: 50vh;
+}
+
+.left{
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.img {
+    object-fit:cover ;
+    z-index: -999;
+}
+
+.imgContainer{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 20px
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #b7903c;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.wrapper {
+    width: 70%;
+    max-height: 300px;
+    background-color: #c5b185ca;
+    padding: 25px 25px 75px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: 1rem;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+
+
+.title{
+    font-size: 20px;
+}
+
+.totalTextTitle {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.totalText{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.button{
+    font-size: 16px;
+    font-weight: 700;
+    width: 10rem;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 9px;
+    margin: 0 auto;
+}
+
+.paymentMethods{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.payButton{
+    height: auto;
+    padding: 10px 5px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color:teal;
+    font-weight: 700;
+}
+
+.payButton:hover{
+    color:rgb(112, 148, 148);    
+    background-color: #fff;
+}
+
+.button:hover {
+    background-color: #6c350ae0;
+}
+
+.tr{
+    text-align: left;
+}
+
+.titleG {
+    border: solid 1px #000;
+    padding: 1rem;
+}
+
+@media(max-width:1200px) {
+    .container  {
+        flex-direction: column;
+    }
+    .wrapper{
+        width: 40%;
+    }
+    
+    .imgContainer{
+        width: 75px;
+        height: 75px;
+    }
+    .name{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:700px) {
+    .container  {
+        padding: 0;
+    }
+   .none {
+        display: none;
+    }
+    .imgContainer{
+        width: 50px;
+        height: 50px;
+    }
+    .name{
+        font-size: 12px;
+    }
+
+    .wrapper{
+       
+        margin: 2rem auto;
+    }
+    .left{
+        margin-top: 2rem;
+    }
+    .table{
+        width: 85%;
+    }
+   
+}

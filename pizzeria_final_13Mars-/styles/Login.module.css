@@ -1,0 +1,45 @@
+.container {
+    height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper h1{
+    border-bottom: solid 5px rgb(180, 119, 7);
+    border-radius: 0 0 30px 30px;
+    padding: 1rem;
+    display: table;
+    margin-bottom: 4rem;
+}
+
+.input {
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    font-size: 18px;
+}
+
+.button {
+    height: 20px;
+    margin: 20px 0;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #6c350ae0;
+}
+
+.error {
+    font-size: 15px;
+    color: red;
+}

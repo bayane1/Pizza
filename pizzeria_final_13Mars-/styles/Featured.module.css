@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=IBM+Plex+Serif:wght@700&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 50rem;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../public/img/page-accueil.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text p {
+    color:#fff;
+    text-align: center;
+    font-family: 'IBM Plex Serif', serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0;
+}
+
+.buttonOrder {
+    margin-top: 50px;
+    width: 17rem;
+    border-radius: 0 50px;
+    font-size: 17px;
+    padding: 16px;
+    font-weight: 700;
+}
+
+.buttonOrder:hover {
+   background-color: #6c350ae0;
+}

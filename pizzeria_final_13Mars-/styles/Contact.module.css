@@ -1,0 +1,111 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h1 { 
+    border-bottom: solid 5px rgb(180, 119, 7);
+    border-radius: 0 0 30px 30px;
+    padding: 1rem;
+}
+
+.container h2 {
+    font-size: 30px;
+}
+
+.nom, .info {
+    color: rgb(180, 119, 7);
+}
+
+.info {
+    font-size: 23px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.img{
+    width: 8rem;
+    height: auto;
+    filter: invert(1);
+    margin-right: 1rem;
+    margin-bottom: 30px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+}
+
+.line{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.field {
+    height: 1rem;
+}
+
+.message, .field{
+    margin-top: 5px;
+    border-radius: 5px; 
+    padding: 10px;
+    font-size: 15px;
+}
+
+.line label{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(180, 119, 7);
+}
+
+.button{
+    margin: 2rem 0;
+    text-align: center;
+} 
+
+.btn{
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: #6c350ae0;
+    cursor: pointer;
+}
+
+.form {
+    width: 60%;
+    margin-bottom: 5rem;
+    background-color: #dedec36e;
+    border-radius: 15px;
+}
+
+.danger{
+    color: rgb(169, 9, 9);
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 12px;
+    padding-left: 1rem;
+}
+
+.envoiEnCours{
+    background-color: #35352f6e;
+    color: #fff;
+}
+
+@media(max-width:1250px) {
+    .container {
+      flex-direction: column;
+    }
+}
+
+
+@media(max-width:768px) {
+    .form {
+        width: 90%;
+    }
+}

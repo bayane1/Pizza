@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+    align-items: center;
+    margin: 14rem auto;
+    padding: 3rem;
+    background-color: #dedec36e;
+    border-radius: 15px;
+}
+
+.retour{
+    font-size: 20px;
+    margin-top: 4rem;
+    font-weight: 600;
+}
+
+.validation{
+    font-size: 27px;
+    font-weight: 600;
+    display: flex;
+}
+
+.retour:hover{
+    background-color: #6c350ae0;
+    cursor: pointer;
+}
+
+.img{
+    width: 200;
+    height: 200;
+    object-fit: fill;
+}
